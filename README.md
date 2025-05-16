@@ -1,10 +1,10 @@
-# 📊 Student Wellness & Academic Performance
+# Student Wellness & Academic Performance
 
 This project explores how students' daily habits relate to their academic performance and stress levels. It combines exploratory data analysis and simple machine learning techniques using a synthetic dataset of **2,000 students**.
 
 ---
 
-## 📁 Dataset Overview
+## Dataset Overview
 
 Each student record contains the following columns:
 
@@ -21,9 +21,9 @@ Each student record contains the following columns:
 
 ---
 
-## 📈 Visualizations & Insights
+## Visualizations
 
-### 🎯 Stress Level Distribution
+###  Stress Level Distribution
 
 > Majority of students fall into the high stress category.
 
@@ -31,7 +31,7 @@ Each student record contains the following columns:
 
 ---
 
-### 🔥 Correlation Heatmap
+### Correlation Matrix
 
 This heatmap shows the pairwise correlation between key student metrics. Features with an **absolute correlation above 0.4** (|r| > 0.4) were **selected for regression analysis**, as they suggest a potentially meaningful linear relationship.
 
@@ -43,7 +43,7 @@ This heatmap shows the pairwise correlation between key student metrics. Feature
 
 ---
 
-### 📉 Regression: Study Hours vs Physical Activity
+### Regression: Study Hours vs Physical Activity
 
 > Students who study more tend to exercise less — possibly due to time trade-offs.
 
@@ -51,7 +51,7 @@ This heatmap shows the pairwise correlation between key student metrics. Feature
 
 ---
 
-### 📈 Regression: Study Hours vs GPA
+### Regression: Study Hours vs GPA
 
 > More study time generally leads to a higher GPA, as shown by the clear upward trend.
 
@@ -59,7 +59,7 @@ This heatmap shows the pairwise correlation between key student metrics. Feature
 
 ---
 
-### 📊 GPA Distribution
+### GPA Distribution
 
 > GPA follows a nearly normal distribution centered around 3.0, indicating a realistic academic spread.
 
@@ -67,7 +67,7 @@ This heatmap shows the pairwise correlation between key student metrics. Feature
 
 ---
 
-### 📊 Social & Physical Activity by Stress Level
+###  Social & Physical Activity by Stress Level
 
 > Students with **lower stress** tend to spend **more time socializing and being physically active**. This may reflect better time management or overall well-being.
 
@@ -75,37 +75,18 @@ This heatmap shows the pairwise correlation between key student metrics. Feature
 
 ---
 
-### 🍩 Average Time Breakdown by Activity
+###  Average Time Breakdown by Activity
 
 This **donut pie chart** summarizes how students divide their time across key activities. Most time is spent on:
 
-- 📚 **Studying** — the largest slice
-- 🏃‍♂️ **Physical Activity**
-- 👥 **Socializing**
-- 🏆 **Extracurriculars**
+-  **Studying** — the largest slice
+-  **Physical Activity**
+-  **Socializing**
+-  **Extracurriculars**
 
 This breakdown helps visualize how daily priorities shift among the student population and complements the correlation and stress-level insights.
 
 ![Average Activity Donut](images/average_activity_pie.png)
 
----
 
-## 💡 Key Takeaways
-
-- 📚 **Study hours are positively correlated with GPA** (+0.73)
-- 🏃‍♂️ **Physical activity is negatively correlated with study hours** (–0.49)
-- 🤯 **High stress levels** are associated with **less social/physical time**
-- ⚖️ Balance is key — too much study time may reduce physical well-being
-
----
-
-## 🛠️ Tech Stack
-
-- Python: `pandas`, `matplotlib`, `seaborn`, `plotly`, `scikit-learn`
-- Jupyter Notebook
-- GitHub
-
----
-
-## 📂 Folder Structure
 
